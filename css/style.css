@@ -82,15 +82,42 @@ ul li :hover {
     overflow: hidden; }
   .logo {
     height: 60px; }
+  .navbar {
+    z-index: 999999; }
   ul {
     margin-top: 12.5px !important;
     background-color: #21293d; }
   ul li a {
-    font-size: 20px; } }
-
-html {
-  font-family: 'Teko', sans-serif; }
+    font-size: 20px; }
+  .section-1 {
+    height: 600px;
+    background-image: url("../assets/img/fondo-search.jpg");
+    background-size: 100% 100%; }
+  .contenedor-search h2 {
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 230px; }
+  .contenedor-search p {
+    font-size: 20px;
+    color: white;
+    text-align: center; }
+  .barra-busqueda {
+    display: flex;
+    flex-direction: column; }
+  .search {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 13px;
+    width: 250px; }
+  .botton-buscador {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-radius: 15px; } }
 
 body {
+  font-family: 'Teko', sans-serif !important;
   max-width: 100%;
   margin: 0px !important; }
