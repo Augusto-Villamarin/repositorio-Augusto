@@ -1,0 +1,39 @@
+.section-1 {
+    height: 600px;
+    background-image: url("../assets/img/fondo-search.jpg") ; 
+    background-size: 100% 100%;
+}
+.contenedor-search h2 {
+    color: orange;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 230px;
+}
+.contenedor-search p {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.barra-busqueda {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.search {
+    font-size: 20px;
+    padding-left: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 13px;
+    width: 30%;
+    height: 40px;
+}
+.botton-buscador {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-radius: 15px;
+}
