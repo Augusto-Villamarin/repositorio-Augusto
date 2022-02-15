@@ -1,0 +1,17 @@
+//Medias queries
+@media only screen  and (min-width : 320px) and (max-width : 480px) {
+    body {
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .logo {
+        height: 60px;
+    }
+    ul {
+        margin-top: 12.5px !important;
+        background-color: $azul;
+    }
+    ul li a {
+        font-size: 20px;
+    }
+}
