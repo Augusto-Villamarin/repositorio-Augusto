@@ -1,4 +1,5 @@
-$azul: #242c3c;
-nav {
-    background-color: $azul;
+$azul: #21293d;
+@import "navbar";
+body {
+    font-family: 'Teko', sans-serif;
 }
