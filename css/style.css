@@ -1,5 +1,5 @@
 nav {
-  height: 80px;
+  height: 90px;
   background-color: #21293d; }
 
 ul li a {
@@ -7,11 +7,9 @@ ul li a {
   color: white;
   font-size: 30px; }
 
-ul li :hover {
-  background-size: 100%;
-  max-height: 200px;
-  height: 100%;
-  background-color: #3c4761; }
+.nav-link:hover {
+  border-bottom: 3px solid orange;
+  padding-bottom: none; }
 
 .navbar-nav {
   margin-left: auto;
@@ -112,6 +110,15 @@ ul li :hover {
   margin-right: auto;
   width: 100px;
   border-radius: 15px; }
+
+hr {
+  height: 20px; }
+
+.titulo-1 {
+  color: #21293d;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 50px; }
 
 body {
   font-family: 'Teko', sans-serif !important;
