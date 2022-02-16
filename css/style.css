@@ -120,6 +120,30 @@ hr {
   font-size: 50px;
   padding-top: 50px; }
 
+.contenedor-jugadores {
+  justify-content: center; }
+
+.card-players {
+  border: 1px solid #cfcece; }
+
+.card-players ul {
+  font-size: 25px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px; }
+
+.card-players img {
+  padding-left: 25px; }
+
+.card-players h1 {
+  text-align: center;
+  margin-top: 20px; }
+
+.card-players ul p {
+  color: #f7a000; }
+
 body {
   font-family: 'Teko', sans-serif !important;
   max-width: 100%;
@@ -131,10 +155,11 @@ body {
   .navbar {
     z-index: 999999; }
   ul {
-    margin-top: 12.5px !important;
-    background-color: #21293d; }
+    margin-top: 12.5px !important; }
   ul li a {
     font-size: 20px; }
+  .navbar-nav {
+    background-color: #21293d; }
   .section-1 {
     height: 600px;
     background-image: url("../assets/img/fondo-search.jpg");

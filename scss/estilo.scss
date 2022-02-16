@@ -18,10 +18,12 @@ body {
     }
     ul {
         margin-top: 12.5px !important;
-        background-color: $azul;
     }
     ul li a {
         font-size: 20px;
+    }
+    .navbar-nav {
+        background-color: $azul;
     }
     .section-1 {
         height: 600px;
