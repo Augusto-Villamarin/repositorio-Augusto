@@ -162,17 +162,58 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 50px; }
+  padding: 10px; }
 
 .card-players img {
   width: 100%; }
 
 .card-players h1 {
   text-align: center;
-  margin-top: 20px; }
+  margin-top: 30px; }
 
 .card-players ul p {
   color: #f7a000; }
+
+.titulo-2 {
+  color: #21293d;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 50px; }
+
+.card-teams {
+  border: 1px solid #cfcece; }
+
+.card-teams h1 {
+  padding-top: 20px;
+  text-align: center; }
+
+.card-teams h3 {
+  text-align: center; }
+
+.card-teams p {
+  text-align: center;
+  font-size: 40px; }
+
+.card-teams img {
+  padding-top: 20px;
+  padding-left: 80px;
+  width: 80%; }
+
+.contenedor-teams {
+  justify-content: center; }
+
+.card-teams_jugadores {
+  display: grid;
+  font-size: 20px;
+  grid-template-columns: auto auto; }
+
+.team-info {
+  text-align: center; }
+
+.team-info p {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 35px; }
 
 body {
   font-family: 'Teko', sans-serif !important;

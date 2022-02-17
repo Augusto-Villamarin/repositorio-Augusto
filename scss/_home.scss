@@ -88,7 +88,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 50px;
+    padding: 10px;
 }
 
 .card-players img {
@@ -97,8 +97,52 @@ hr {
 }
 .card-players h1{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .card-players ul p {
     color: rgb(247, 160, 0);
 }
+.titulo-2 {
+    color: $azul;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+}
+.card-teams {
+    border: 1px solid rgb(207, 206, 206);
+}
+.card-teams h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+.card-teams h3 {
+    text-align: center;
+}
+.card-teams p {
+    text-align: center;
+    font-size: 40px;
+}
+.card-teams img {
+    padding-top: 20px;
+    padding-left: 80px;
+    width: 80%;
+}
+.contenedor-teams {
+    justify-content: center;
+}
+
+.card-teams_jugadores {
+    display: grid;
+    font-size: 20px;
+    grid-template-columns: auto auto;
+}
+.team-info {
+    text-align: center;
+    
+}
+.team-info p {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 35px;
+}
+
