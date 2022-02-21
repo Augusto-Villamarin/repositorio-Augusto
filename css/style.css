@@ -207,6 +207,9 @@ hr {
   font-size: 20px;
   grid-template-columns: auto auto; }
 
+.card-teams_jugadores ul li {
+  font-size: 25px; }
+
 .team-info {
   text-align: center; }
 
