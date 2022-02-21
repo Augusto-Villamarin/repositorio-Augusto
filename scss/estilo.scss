@@ -59,4 +59,51 @@ body {
         width: 100px;
         border-radius: 15px;
     }
+    .titulo-1 {
+        font-size: 40px;
+        
+    }
+    .card-players {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    .titulo-2 {
+        font-size: 40px;
+    }
+    .card-teams {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    .card-teams_jugadores ul li {
+        font-size: 20px;
+    }
+    .team-info h3 {
+        font-size: 20px;
+    }
+    .contenedor-noticias h2 {
+        font-size: 50px;
+        padding-top: 50px;
+    }
+    
+    .card-noticias h1 {
+        font-size: 25px;
+    }
+    .card-noticias p {
+        font-size: 20px;
+    }
+    .texto-noticia {
+        font-size: 20px !important;
+    }
+    .card-noticias{
+        padding: 20px;
+        margin-top: 50px;
+    }
+    iframe {
+        height: 150px;
+        width: 100%;
+    }
 }
